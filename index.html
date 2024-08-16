@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: '#da373d',
+            }
+          }
+        }
+      }
+    </script>
+    <title>Index</title>
+</head>
+<body>
+  <div class="px-24 pb-10">
+    <nav class=" flex h-20 justify-between items-center   lg:px-10">
+
+      <div class="flex h-20 items-center gap-3">
+          <h1 class="font-bold text-purple-900 md:font-bold text-purple-900 md:text-5xl text-4xl">Logo</h1>
+      <div class="hidden md:flex ml-3">
+          <ul class="flex font-semibold gap-6 text-lg">
+              <li>Home</li>
+              <li class="text-gray-500">About</li>
+              <li class="text-gray-500">Services</li>
+              <li class="text-gray-500">Portfolio</li>
+              <li class="text-gray-500">Pricing</li>
+          </ul>
+      </div>
+      </div>
+      
+      <div class="flex items-center text-white font-semibold">
+          <button class="bg-purple-600 rounded-md md:bg-purple-600 px-3 py-3 rounded-md text-xl">Contact Us</button>
+      </div> 
+  </nav>
+  <main class="flex flex-col-reverse gap-10 xl:flex-row justify-between px-6 lg:px-24 pt-24  w-full">
+    <div class=" 2xl:w-1/2  flex gap-6 flex-col justify-center items-center xl:items-start  w-full">
+      <h2 class="w-[450px] text-4xl text-center xl:text-start  md:text-5xl font-bold lg:font-bold text-purple-900 xl:text-7xl ">We Help You <span class="text-purple-600">Crush</span> Your Competition</h2>
+      <p  class="text-purple-950 text-center xl:text-start   text-xl w-[300px]">Build trust to connect your brand to billions of users and grow revenue through SEO</p>
+      <button class="bg-purple-600 px-2 py-2 rounded-md text-white font-semibold">See our services</button>
+
+    </div>
+    <div class="">
+      <img class="lg:min-w-[700px]" src="./image2.png" alt="BODY IMAGE">
+    </div>
+  </main>
+  </div> 
+    
+    <!-- <main class=" flex relative  lg:mt-16">
+      <div class="flex  flex-col-reverse  gap-3">
+        
+        <div class=" items-center justify-center lg:flex gap-6">
+          <div class="flex flex-col items-center lg:items-start justify-center">
+            <h2 class="text-5xl font-bold lg:font-bold text-purple-900 lg:text-7xl ">We Help You <br> <span class="text-purple-600">Crush</span> Your <br>Competition</h2>
+            <br>
+            <p  class="text-purple-950 text-xl">Build trust to connect your brand to <br>billions of users and grow revenue <br>through SEO</p>
+             <br><div class="">
+              <button class="bg-purple-600 px-2 py-2 rounded-md text-white font-semibold">See our services</button>
+            </div>
+          </div>
+        </div>
+
+        
+        <div class="lg:absolute right-0 top-1 lg:min-w-[30%] lg:mr-96">
+          <img class="w-[700px] " src="./image2.png" alt="BODY IMAGE">
+        </div> <br>
+
+
+      </div>
+    
+    </main> -->
+    
+</body>
+</html>
